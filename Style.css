@@ -1,0 +1,128 @@
+body {
+   margin: 0 auto;
+    padding: 10% 0;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    max-width: 80%;
+    background-color: #009291;
+ }
+ h1 {
+   background-color: #8D2B3E;
+   width: 97.2%;
+   display: inline-block;	
+   margin: 20px 0;
+   text-align: center;
+   text-transform: uppercase;
+   font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   font-size: 2.3vw;
+   padding: 20px 0;	
+ }
+ label {
+   width: 50%;
+   display: inline-block;
+   text-align: left;
+   text-transform: uppercase;
+   font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   font-size: 1.25vw;
+   padding-bottom: 0px;
+ }
+ input {
+   -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0px solid #3f424c;
+    width: 47%;
+    margin-bottom: 0;
+    height: 3vw;
+    float: none;
+    clear: both;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 0.6vw;
+    line-height: normal;
+    border-radius: 10px;
+    background: #FFF;
+    color: #7c7c7c;
+    font-size: 1vw;
+    font-family: "news-gothic-std", sans-serif;
+    text-indent: 0;
+    text-transform: lowercase;
+    padding: 0 2.5vw 0 2.5vw;
+    outline: none;
+ }
+ input::-webkit-input-placeholder {
+    color: #7c7c7c;
+ }
+ input:-moz-placeholder {/* Firefox 18- */
+    color: #7c7c7c;
+    opacity: 1;
+ }
+ 
+ input::-moz-placeholder {/* Firefox 19+ */
+    color: #7c7c7c;
+    opacity: 1;
+ }
+ 
+ input:-ms-input-placeholder {
+    color: #7c7c7c;
+ }
+ input:-webkit-autofill, input:-webkit-autofill:focus {
+    box-shadow: 0px 0px 0px 10px #FFF inset;
+    background: #FFF !important;
+    -webkit-text-fill-color: #7c7c7c;
+ }
+ div.button{
+    text-align: center;
+ }
+ div.button a{
+    background: #8D2B3E;
+     color: #ffffff;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     margin: 10px 0;
+     padding: 13px 31px;
+     display: inline-block;
+     text-decoration: none;
+     font-size: 18px;
+ }
+ div.button a:hover{
+    background: #7f7f7f;
+ }
+ div.output{
+    display: none;
+ }
+ div.output label{
+    background: none #00A6A3;
+    width: 100%;
+    display: block;	
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3vw;
+     padding: 20px 0;	
+ }
+ @media only screen and (min-width: 768px) {
+ 
+    body {
+       max-width: 60%;
+    }
+ 
+    .field label {
+       font-size: 1.7vw;
+    }
+ 
+    input, select {
+       font-size: 1.25vw;
+       height: 3.54vw;
+       padding-left: 0.9vw;
+       padding-right: 0.9vw;
+       letter-spacing: 0.2vw;
+    }
+    span {
+background-color: black;
+    }
+   
+ }
