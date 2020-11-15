@@ -7,21 +7,21 @@
 <span class="newSpan">
     <div class="team score">
         <label for="firstHomeScore">Enter First Match Home Team Score</label>
-        <input id="firstHomeScore" name="score"  type="number" min="0" class="homesc" placeholder="Enter first match home score"/>		 
+        <input id="firstHomeScore" name="score"  type="number" onkeypress='validate(event)' min="0" class="homesc" placeholder="Enter first match home score"/>		 
     </div>
     <div class="team score">
         <label for="firstAwayScore">Enter First Match Away Team Score</label>
-        <input id="firstAwayScore" name="score"  type="number" min="0" class="m-score" placeholder="Enter first match away score"/>		 
+        <input id="firstAwayScore" name="score"  type="number" onkeypress='validate(event)' min="0" class="m-score" placeholder="Enter first match away score"/>		 
     </div>
 </span>
 
 <div class="team score">
     <label for="secondHomeScore">Enter Second Match Home Team Score</label>
-    <input id="secondHomeScore" name="score"  type="number" min="0" class="m-score" placeholder="Enter second match home score"/>		 
+    <input id="secondHomeScore" name="score"  type="number" onkeypress='validate(event)' min="0" class="m-score" placeholder="Enter second match home score"/>		 
 </div>
 <div class="team score">
     <label for="secondAwayScore">Enter Second Match Away Team Score</label>
-    <input id="secondAwayScore" name="score"  type="number" min="0" class="m-score" placeholder="Enter second match away score"/>		 
+    <input id="secondAwayScore" name="score"  type="number" onkeypress='validate(event)' min="0" class="m-score" placeholder="Enter second match away score"/>		 
 </div>
 <div class="button">
     <a href="javascript:void(0);">Click to get Winner</a>
